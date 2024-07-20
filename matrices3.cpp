@@ -10,6 +10,8 @@ int main(){
     int c=3*n;
     int M[f][c];
 
+    cout<<"\nMATRIZ DE ORDEN "<<f<<"x"<<c<<" GENERADA CON 0S Y 1S: "<<endl<<endl;
+    
     for(int i=0; i<f; i++){
         for(int j=0; j<c; j++){
             if(i==0 || i==f-1 || j==0 || j==c-1)
